@@ -20,6 +20,23 @@ h1, h2 {
   font-size: clamp(1.5rem, 2vw, 2.5rem);
 }
 
+h5 {
+  color: #4b6043;
+  font-family: 'Lora', serif;
+  font-size: clamp(1.0rem, 1.5vw, 1.8rem)
+}
+
+p {
+  color: #4b6043;
+  font-family: 'Lora', serif;
+  font-size: clamp(1.0rem, 1.5vw, 1.8rem);
+  text-align: left;
+}
+
+a {
+  text-align: left;
+}
+
 h4 {
   color: #4b6043;
   font-family: 'Lora', serif;
@@ -125,26 +142,17 @@ html {
 }
 
 img {
-  max-width: clamp(40px, 10vw, 80px)
+  max-width: clamp(120px, 30vw, 220px);
   height: auto;
   display: block;
-  margin: 0 auto;
+  text-align: left;
 }
 
 #earthmap {
-  max-width: clamp(100px, 50vw, 500px);
+  max-width: clamp(200px, 50vw, 400px);
   height: auto;
   display: block;
   margin: 0 auto;
-  
-}
-,
-#portrait {
-  max-width: 80%;
-  height: 80%;
-  display: block;
-  margin-right: 100%;
-  border-radius: 10px;
 }
 
 button {
@@ -160,7 +168,6 @@ button {
   border-radius: 12px;
   font-size: clamp(1.0rem, 1.8vw, 1.8rem);;
   font-family: 'Lora', serif;
-  
 }
 
 #credits {
@@ -184,4 +191,22 @@ li {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+#sources {
+  max-width: 90%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+#sources p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+#sources a {
+  word-break: break-all;
+  display: inline-block;
+  max-width: 100%;
 }
